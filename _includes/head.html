@@ -9,4 +9,43 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
+
+  <!-- Google Structured data. See more here : https://developers.google.com/search/docs/guides/intro-structured-data -->
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+
+    "affiliation": {
+      "@type": "Organization",
+      "address": "National Geographic Headquarters\n1145 17th Street NW\nWashington, D.C. 20036",
+      "logo": "https://www.nationalgeographic.org/static/ngs/home/img/logo.e6616dca24df.png",
+      "description": "The National Geographic Society is a nonprofit scientific and educational organization "
+                     "that pushes the boundaries of exploration to further our understanding of our planet "
+                     "and empower us all to generate solutions for a more sustainable future.",
+      "name": "National Geographic Society",
+      "url": "http://www.nationalgeographic.org/",
+      "sameAs": [
+          "https://www.facebook.com/natgeo",
+          "https://twitter.com/NatGeo",
+          "https://instagram.com/natgeo"
+      ]
+    },
+    "image": "https://media.licdn.com/dms/image/C5103AQFugnWzfhgl7w/profile-displayphoto-shrink_200_200/0?e=1536192000&v=beta&t=ifwXOcfyDsAqyWSBE1Y68XypvGZQ8jmM4x5LrTpAHoM"
+    "name": "Adela Neacșu",
+    "jobTitle": "Senior Software Engineer",
+    "url": "adelaneacsu.eu",
+    "sameAs": [
+      "https://github.com/nqryn",
+      "https://www.linkedin.com/in/adela-neacsu-76aaa456",
+      "https://stackoverflow.com/users/3231146",
+      "https://www.twitter.com/nqryn",
+      "https://youtube.com/AdelaNeacsu",
+      "https://plus.google.com/+AdelaNeacsu"
+    ]
+  }
+  </script>
+
+
+
 </head>

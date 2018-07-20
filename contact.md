@@ -8,9 +8,6 @@ If you'd like to find out more about my work, let me know. You can tell me about
 
 I've also included a map with the places where I can be found most often, just for fun. And don't forget about the social links at the bottom of the page.
 
-And if you like this website, you should know it was really easy to do and to deploy thanks to Jekyll and Github Pages.
-You can find the source code for [Jekyll](https://github.com/jekyll/jekyll) on GitHub.
-
 
 <ul class="contacts">
 	<li>
