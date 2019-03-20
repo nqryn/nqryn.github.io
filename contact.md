@@ -26,7 +26,7 @@ I've also included a map with the places where I can be found most often, just f
 
 
 	<li>
-		<a href="www.upwork.com/freelancers/~0165ce5a90d8d5151e" id="contact-upwork"> 
+		<a href="www.upwork.com/freelancers/~0165ce5a90d8d5151e" id="contact-upwork" rel="external"> 
 			<img src="/assets/upwork_small.png" style="margin: 32px 0 32px 32px;"> 
 			<span style="display: inline-block; vertical-align: bottom; padding-bottom: 29px; padding-left: 4px;">Freelance </span>
 		</a>
